@@ -1,4 +1,4 @@
-# 안녕하세요! 저는 박준형 입니다 👋
+# 안녕하세요! 저는 박준호 입니다 👋
 
 <div align="center">
   
@@ -16,10 +16,10 @@
 
 > 문제 해결을 즐기고, 새로운 기술을 배우는 것을 좋아하는 백엔드 개발자입니다.
 
-- 🎓 **OO대학교 컴퓨터공학과** 졸업 (2020.03 ~ 2024.02)
+- 🎓 **인하대학교 컴퓨터공학과** 졸업 (2011.03 ~ 2017.02)
 - 🌱 현재 **Spring Boot**와 **MSA 아키텍처**를 공부하고 있습니다
-- 💼 **신입 백엔드 개발자** 포지션을 찾고 있습니다
-- 📫 Contact: your.email@example.com
+- 💼 **신입 풀스택 개발자** 포지션을 찾고 있습니다
+- 📫 Contact: pjh133765@gmail.com
 
 <br>
 
@@ -79,22 +79,11 @@
 
 <br>
 
-## 💼 Work Experience
-
-### 🏢 ABC 테크 | 백엔드 개발 인턴
-*2023.07 ~ 2023.12 (6개월)*
-
-- RESTful API 설계 및 개발
-- Spring Boot 기반 마이크로서비스 구현
-- MySQL 데이터베이스 최적화 작업
-- **성과**: API 응답 속도 40% 개선
-
-<br>
 
 ## 🚀 Projects
 
 ### 📦 E-Commerce Platform | 전자상거래 플랫폼
-*2024.01 ~ 2024.03 (3개월) | 팀 프로젝트 (4명)*
+*2025.06 ~ 2024.07 (2개월) | 팀 프로젝트 (3명)*
 
 **[GitHub Repository](https://github.com/jhpark-coder/ecommerce)**
 
@@ -117,13 +106,13 @@
 
 ---
 
-### 📝 Community Board System | 커뮤니티 게시판
-*2023.09 ~ 2023.11 (2개월) | 개인 프로젝트*
+### 📝 FitMate | 실시간 모션인식기반 개인 맞춤 운동 추천 시스템
+*2025.07.29 ~ 2025.09.02 (35일) | 개인 프로젝트*
 
-**[GitHub Repository](https://github.com/jhpark-coder/community)**
-**[Demo Site](https://your-demo-site.com)**
+**[GitHub Repository](https://github.com/jhpark-coder/personalproject)**
+**[Demo Site](https://fitmateproject.com)**
 
-**기술 스택**: Spring MVC, JSP, MySQL, Bootstrap
+**기술 스택**: Spring, React, NestJS, MySQL, Redis
 
 **주요 기능**:
 - 게시글 CRUD 및 댓글 시스템
@@ -138,36 +127,18 @@
 
 ---
 
-### 🤖 AI Chatbot Service | AI 챗봇 서비스
-*2023.05 ~ 2023.07 (2개월) | 팀 프로젝트 (3명)*
 
-**[GitHub Repository](https://github.com/jhpark-coder/chatbot)**
-
-**기술 스택**: Python, FastAPI, MongoDB, React
-
-**주요 기능**:
-- OpenAI API 연동
-- 대화 히스토리 관리
-- 사용자별 맞춤 응답
-
-**담당 역할**:
-- FastAPI 백엔드 서버 구축
-- MongoDB 데이터 모델링
-- RESTful API 설계
-
-<br>
 
 ## 🎓 Education
 
-### 🏫 OO대학교 | 컴퓨터공학과
-*2020.03 ~ 2024.02*
+### 🏫 인하대학교 | 컴퓨터공학과
+*2011.03 ~ 2017.02*
 
-- **GPA**: 4.2/4.5
-- **주요 과목**: 자료구조, 알고리즘, 데이터베이스, 운영체제, 소프트웨어공학
-- **졸업 프로젝트**: AI 기반 주식 예측 시스템 (우수상 수상)
+- **주요 과목**: 자료구조, 알고리즘, 데이터베이스, 운영체제, 네트워크
+- **졸업 프로젝트**: 위치기반 실시간 주유소 추천앱
 
 ### 🏫 국비 교육 | Java 풀스택 개발자 과정
-*2023.03 ~ 2023.08 (6개월)*
+*2025.04 ~ 2025.10 (7개월)*
 
 - Java, Spring Framework 심화 학습
 - 웹 프론트엔드 (HTML, CSS, JavaScript)
@@ -176,47 +147,19 @@
 
 <br>
 
-## 🏆 Awards & Certifications
-
-### 🥇 수상
-- **2023** | 교내 프로그래밍 경진대회 금상
-- **2023** | 캡스톤 디자인 우수상
-- **2022** | 오픈소스 컨트리뷰톤 장려상
-
 ### 📜 자격증
-- **2023.12** | 정보처리기사
-- **2023.06** | SQLD (SQL 개발자)
-- **2022.11** | TOEIC 850점
-- **2022.08** | AWS Certified Cloud Practitioner
-
-<br>
-
-## 📊 Algorithm & Problem Solving
-
-### 💻 Baekjoon
-[![Solved.ac Profile](http://mazassumnida.wtf/api/v2/generate_badge?boj=jhpark)](https://solved.ac/jhpark)
-
-- **티어**: Gold IV
-- **해결 문제**: 500+
-- **주 사용 언어**: Java, Python
-
-### 💡 Programmers
-- **레벨**: Lv.3
-- **해결 문제**: 200+
-- **코딩테스트 참여**: 10회
+- **2016.01** | JLPT 1급
+- **2019.06** | 정보처리기사
+- **2020.07** | 한국사능력검정시험 1급
 
 <br>
 
 ## 🌟 Activities & Interests
 
-### 👥 동아리 & 스터디
-- **2023 ~ 2024** | 알고리즘 스터디 리더
-- **2022 ~ 2023** | 웹 개발 동아리 회원
-- **2021 ~ 2022** | 오픈소스 컨트리뷰션 활동
 
 ### 📝 블로그 & 기술 문서
 - **Tech Blog**: [https://your-blog.tistory.com](https://your-blog.tistory.com)
-- **주요 주제**: Spring Boot, JPA, 알고리즘 풀이
+- **주요 주제**: Spring Boot, JPA, WebProgramming
 - **포스팅 수**: 100+ 개
 
 ### 🎯 관심 분야
