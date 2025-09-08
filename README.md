@@ -106,19 +106,21 @@
 **기술 스택**: Spring Boot, thymeleaf, React, tailwind, typestript, MySQL, Redis, Docker
 
 **주요 기능**:
-- React기반 
+- React기반 Tiptap 에디터
 - 상품 검색 및 필터링 기능
-- 장바구니 및 주문 처리 시스템
-- 결제 모듈 연동 (아임포트)
+- NestJS+SocketIO기반 통신(알림, 채팅)
+- 결제 및 실시간 경매 기능
 
 **담당 역할**:
 - 백엔드 API 개발 (70%)
 - 데이터베이스 설계
-- Docker 배포 환경 구성
+- Docker, GitHub 등 배포 환경 구성
+- 에디터 및 통신서버 구현
+- 동적호출을 활용한 보안기능
 
 **성과**:
-- 동시 접속자 1,000명 처리 가능한 시스템 구축
-- Redis 캐싱으로 조회 성능 60% 향상
+- 배포환경 통일로 인한 작업속도 향상 
+- MSA구조에 대한 기본적 이해
 
 ---
 
@@ -128,18 +130,19 @@
 **[GitHub Repository](https://github.com/jhpark-coder/personalproject)**
 **[Demo Site](https://fitmateproject.com)**
 
-**기술 스택**: Spring, React, NestJS, MySQL, Redis
+**기술 스택**: Spring, React, NestJS, MySQL, Redis, Tailwind, Nginx
 
 **주요 기능**:
-- 게시글 CRUD 및 댓글 시스템
-- 파일 업로드/다운로드
-- 페이징 및 검색 기능
-- 조회수 및 추천 기능
+- MediaPipe를 활용한 모션인식 및 Google Cloud TTS를 통한 음성안내
+- 6-Factor기반 알고리즘을 활용한 개인 맞춤형 최적 운동 추천 시스템
+- Rechart를 활용한 데이터 시각화 및 분석
+- MSA로 나뉘어진 통신서버
 
 **학습 내용**:
-- MVC 패턴의 이해와 적용
-- MyBatis를 활용한 SQL 매핑
-- Ajax를 통한 비동기 처리
+- 총 6종의 외부 API활용을 통한 전반적인 API의 이해
+- ECS의 구조에 대한 종합적인 학습(로드 밸런서, Fargate, Container, Health Check 등)
+- Fetch를 통한 비동기 처리
+- 복잡한 React 호출순서에 대한 이해
 
 ---
 
