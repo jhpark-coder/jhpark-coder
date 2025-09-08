@@ -82,15 +82,31 @@
 
 ## 🚀 Projects
 
-### 📦 E-Commerce Platform | 전자상거래 플랫폼
-*2025.06 ~ 2024.07 (2개월) | 팀 프로젝트 (3명)*
+### MineSweeper | 지뢰찾기
+*2025.05 (1개월)
 
-**[GitHub Repository](https://github.com/jhpark-coder/ecommerce)**
-
-**기술 스택**: Spring Boot, React, MySQL, Redis, Docker
+**기술 스택**: Java, MySQL
 
 **주요 기능**:
-- JWT 기반 인증/인가 시스템 구현
+- 를 활용한 테마 설정
+- 난이도 지정 및 새 게임 재시작 가능
+- BFS 알고리즘을 활용한 지뢰 연속 탐색
+- 파일, DB연동을 통한 랭킹 시스템
+- 
+**성과**:
+- 배포용 기성앱들과 거의 동일한 수준의 프로그램 완성
+- Hicari pool을 통해 안정적 서비스 지원
+
+
+### 📦 Online-Portfolio Platform | 온라인 포트폴리오 플랫폼
+*2025.06 ~ 2025.07 (2개월) | 팀 프로젝트 (3명)*
+
+**[GitHub Repository]((https://github.com/jhpark-coder/SpringBootProject_Group4))**
+
+**기술 스택**: Spring Boot, thymeleaf, React, tailwind, typestript, MySQL, Redis, Docker
+
+**주요 기능**:
+- React기반 
 - 상품 검색 및 필터링 기능
 - 장바구니 및 주문 처리 시스템
 - 결제 모듈 연동 (아임포트)
