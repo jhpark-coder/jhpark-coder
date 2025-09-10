@@ -98,7 +98,7 @@
 
 
 ### 📦 Online-Portfolio Platform | 온라인 포트폴리오 플랫폼
-*2025.06 ~ 2025.07 (2개월) | 팀 프로젝트 (3명)*
+*2025.06.21 ~ 2025.07.23 (32일) | 팀 프로젝트 (3명)*
 
 **[GitHub Repository]((https://github.com/jhpark-coder/SpringBootProject_Group4))**
 
@@ -139,7 +139,7 @@
 
 **학습 내용**:
 - 총 6종의 외부 API활용을 통한 전반적인 API의 이해
-- ECS의 구조에 대한 종합적인 학습(로드 밸런서, Fargate, Container, Health Check 등)
+- ECS의 구조에 대한 종합적인 학습
 - Fetch를 통한 비동기 처리 학습
 - 복잡한 React 호출순서에 대한 이해
 
@@ -156,7 +156,7 @@
 - **졸업 프로젝트**: 위치기반 실시간 주유소 추천앱
 
 ### 🏫 국비 교육 | Java 풀스택 개발자 과정
-*2025.04 ~ 2025.10 (7개월)*
+*2025.04.09 ~ 2025.10.30 (7개월)*
 
 - Java, Spring Framework 심화 학습
 - 웹 프론트엔드 (HTML, CSS, JavaScript, React)
@@ -168,8 +168,6 @@
 ### 📜 자격증
 - **2016.01** | JLPT N1
 - **2019.06** | 정보처리기사
-- **2020.07** | 한국사능력검정시험 1급
-
 <br>
 
 ## 🌟 Activities & Interests
