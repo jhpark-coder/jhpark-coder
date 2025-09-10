@@ -81,15 +81,15 @@
 ## 🚀 Projects
 
 ### MineSweeper | 지뢰찾기
-*2025.05.13 ~ 06.03 (21일)
+*2025.05.13 ~ 06.03 (21일)  | 개인 프로젝트*
 
 **기술 스택**: Java, Swing, MySQL, HikariCP
 
 **주요 기능**:
-- Flatlaf를 활용한 4가지 테마 설정
 - 난이도 지정 및 새 게임 재시작 가능
 - BFS 알고리즘을 활용한 지뢰 연속 탐색
 - 파일, DB연동을 통한 랭킹 시스템
+- Flatlaf를 활용한 4가지 테마 설정
 
 **성과**:
 - 현존 상용 프로그램들과 동등한 수준의 프로그램 완성
@@ -129,7 +129,7 @@
 **[GitHub Repository](https://github.com/jhpark-coder/personalproject)**
 **[Demo Site](https://fitmateproject.com)**
 
-**기술 스택**: Spring, React, NestJS, MySQL, Redis, Tailwind, Nginx
+**기술 스택**: Spring, React, NestJS, MySQL, Redis, Tailwind, Nginx, Docker
 
 **주요 기능**:
 - MediaPipe를 활용한 모션인식 및 Google Cloud TTS를 통한 음성합성을 통한 개인 운동 지원
