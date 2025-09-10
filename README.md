@@ -100,7 +100,7 @@
 ### 📦 Online-Portfolio Platform | 온라인 포트폴리오 플랫폼
 *2025.06.21 ~ 2025.07.23 (32일) | 팀 프로젝트 (3명)*
 
-**[GitHub Repository]((https://github.com/jhpark-coder/SpringBootProject_Group4))**
+**[GitHub Repository](https://github.com/jhpark-coder/SpringBootProject_Group4)**
 
 **기술 스택**: Spring Boot, thymeleaf, React, tailwind, typestript, MySQL, Redis, Docker
 
