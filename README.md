@@ -83,6 +83,8 @@
 ### MineSweeper | 지뢰찾기
 *2025.05.13 ~ 06.03 (21일)  | 개인 프로젝트*
 
+**[GitHub Repository](https://github.com/jhpark-coder/MineSweeper-Java)**
+
 **기술 스택**: Java, Swing, MySQL, HikariCP
 
 **주요 기능**:
