@@ -171,13 +171,6 @@
 - **2019.05** | 정보처리기사
 <br>
 
-## 🌟 Activities & Interests
-
-
-### 📝 블로그 & 기술 문서
-- **Tech Blog**: [https://your-blog.tistory.com](https://your-blog.tistory.com)
-- **주요 주제**: Spring Boot, JPA, WebProgramming
-- **포스팅 수**: 100+ 개
 
 ### 🎯 관심 분야
 - Cloud Native Application
