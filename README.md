@@ -1,11 +1,11 @@
 # 안녕하세요! 저는 박준호 입니다 👋
 
 <div align="center">
-   
+
   <br>
-  
+
   **"끊임없이 성장하는 개발자"**
-  
+
 </div>
 
 <br>
@@ -119,7 +119,7 @@
 - 동적호출을 활용한 보안기능
 
 **성과**:
-- 배포환경 통일로 인한 작업속도 향상 
+- 배포환경 통일로 인한 작업속도 향상
 - MSA구조에 대한 기본적 이해
 - 전반적인 웹의 MVC패턴에 대한 이해
 ---
@@ -183,13 +183,13 @@
 ## 📈 GitHub Stats
 
 <div align="center">
-  
+
   ![GitHub Stats](https://github-readme-stats.vercel.app/api?username=jhpark-coder&show_icons=true&theme=tokyonight)
-  
+
   ![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=jhpark-coder&layout=compact&theme=tokyonight)
-  
+
   ![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=jhpark-coder&theme=tokyonight)
-  
+
 </div>
 
 <br>
@@ -197,15 +197,16 @@
 ## 📫 Contact Me
 
 <div align="center">
-  
+
   [![Gmail Badge](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:pjh133765@gmail.com)
+  [![Tistory Badge](https://img.shields.io/badge/Tistory-000000?style=for-the-badge&logo=tistory&logoColor=white)](https://primotion.tistory.com/)
 
 <br>
 
 <div align="center">
-  
+
   **"The only way to do great work is to love what you do." - Steve Jobs**
-  
+
   감사합니다! 😊
-  
+
 </div>
