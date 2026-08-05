@@ -75,7 +75,7 @@
 ![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
 
-## Featured Project
+## Featured Projects
 
 ### AI Research Note Writer
 
@@ -88,6 +88,43 @@ Codex와 Claude Code의 개발 대화를 프로젝트·날짜별 작업 근거�
 - 민감 정보 마스킹과 근거 포함·제외 검토
 - Word 연구일지 읽기 전용 미작성 날짜 검사
 - Windows x64 설치형 EXE와 포터블 ZIP 배포
+
+### AUTOMATA — PLC 현장 자동화 매뉴얼
+
+[Repository](https://github.com/jhpark-coder/automata-plc-manual) · Next.js 16 · React 19 · Three.js
+
+제조설비의 생김새, 역할, 태그, 동작 상태와 PLC 명령을 하나의 흐름으로 학습할 수 있는 한국어 인터랙티브 웹 매뉴얼입니다.
+
+- 컨베이어, 실린더, 그리퍼, 센서, 산업용 로봇 등 장비 24종 수록
+- 회전·확대 가능한 WebGL 3D 형상과 가동부 동작 시연
+- 동작 순서에 따라 변경되는 `LIVE STATE` 및 PLC 명령 표시
+- 동작 버튼 64개의 타이밍·상태·복귀 자세를 자동 검증하는 스크립트 구축
+- Next.js 빌드와 Cloudflare 배포 패키징 지원
+
+### Interior Simulator
+
+[Repository](https://github.com/jhpark-coder/Interior-Simulator) · React 19 · TypeScript · Konva · React Three Fiber
+
+방 구조와 가구를 2D에서 편집하고 동일한 데이터를 3D 공간에서 확인할 수 있는 인테리어 배치 시뮬레이터입니다.
+
+- React Konva 기반 2D 편집기와 React Three Fiber 기반 3D 장면 구현
+- 가구·문·창문 배치, 그리드 스냅, 경계 및 가구 충돌 검사
+- 문·창문 개폐와 수납장·서랍·모니터암 등 상호작용 가능한 3D 메시
+- Zustand 단일 상태를 통한 2D·3D 동기화 및 Undo/Redo
+- Zod 기반 JSON 저장·불러오기 검증과 자동 저장
+- Vitest 기반 좌표·스냅·히스토리·스키마 단위 테스트
+
+### DevMate
+
+[Repository](https://github.com/jhpark-coder/devmate) · Python · Streamlit · LangChain · FAISS
+
+개발자가 방대한 기술 문서를 한국어 질의응답으로 탐색할 수 있도록 만든 RAG 기반 공식 문서 도우미입니다.
+
+- 기술 문서 청킹, OpenAI Embedding 생성 및 FAISS 벡터 인덱싱
+- 검색 문맥에 기반한 답변과 유사도·원문 미리보기를 포함한 출처 표시
+- OpenAI와 로컬 Ollama 모델을 교체할 수 있는 LLM 추상화
+- Domain·Application·Infrastructure 계층으로 문서 처리와 검색 책임 분리
+- Streamlit 기반 대화형 검색 UI와 단위·통합·E2E 테스트 구성
 
 ## Previous Projects
 
