@@ -77,18 +77,6 @@
 
 ## Featured Projects
 
-### AI Research Note Writer
-
-[Repository](https://github.com/jhpark-coder/AIResearchNoteWriter) · Windows · C# · .NET 10 · WPF
-
-Codex와 Claude Code의 개발 대화를 프로젝트·날짜별 작업 근거로 정리하고, 실제 Word 연구일지에서 미작성 날짜를 찾는 Windows 프로그램입니다.
-
-- Codex·Claude Code 로컬 세션 수집과 프로젝트/날짜 필터
-- 사용자 요청, AI 요약, 빌드·테스트 결과 선별
-- 민감 정보 마스킹과 근거 포함·제외 검토
-- Word 연구일지 읽기 전용 미작성 날짜 검사
-- Windows x64 설치형 EXE와 포터블 ZIP 배포
-
 ### AUTOMATA — PLC 현장 자동화 매뉴얼
 
 [Repository](https://github.com/jhpark-coder/automata-plc-manual) · Next.js 16 · React 19 · Three.js
