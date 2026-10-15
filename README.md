@@ -26,12 +26,11 @@
 
 `2025.11 ~ 현재`
 
-**C# · .NET 8 · Avalonia · SQLite · EF Core · MVVM · Git Flow**
+**React · TypeScript · Python · SQLite · Git Flow**
 
-- 기존 WinForms 클라이언트 기능을 Avalonia 기반 데스크톱 클라이언트로 마이그레이션
-- Application·Domain·Infrastructure·Presentation 경계를 중심으로 클라이언트 구조 개선
-- 의존성 주입, MVVM 및 Git Flow 기반 협업·배포 흐름 도입
-- SQLite와 EF Core를 활용한 심볼·매크로·설정 데이터 관리
+- React/TypeScript 기반 FrontEnd, Python FastAPI 기반 BackEnd FullStack 개발
+- Git Flow 기반 협업·배포 흐름 도입
+- SQLite을 활용한 심볼·매크로·설정 데이터 관리
 - 전자회로도 편집기, 심볼/매크로, 와이어 라우팅, 프로젝트 저장·복구 기능 개발
 - Excel LoadList 변환과 SWE 프로젝트 데이터 가져오기·검증 기능 개발
 - 대규모 도면 렌더링 및 편집 반응성 개선, 회귀 테스트와 설치본 검증 자동화
