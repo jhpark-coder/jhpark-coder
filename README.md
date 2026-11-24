@@ -111,13 +111,13 @@
 
 ### DevMate
 
-[Repository](https://github.com/jhpark-coder/devmate) · Python · Streamlit · LangChain · FAISS
+[Repository](https://github.com/jhpark-coder/devmate) · Python · Streamlit · LangChain · FAISS · Ollama
 
-방대한 기술 문서를 한국어 질의응답으로 탐색하는 RAG 기반 공식 문서 도우미입니다.
+방대한 기술 문서를 한국어 질의응답으로 탐색하는 RAG 기반 공식 문서 도우미입니다. API 키 없이 로컬에서만 동작합니다.
 
-- 기술 문서 청킹, OpenAI Embedding 생성 및 FAISS 벡터 인덱싱
-- 검색 문맥에 기반한 답변과 유사도·원문 미리보기를 포함한 출처 표시
-- OpenAI와 로컬 Ollama 모델을 교체할 수 있는 LLM 추상화
+- 22개 기술·140개 문서를 청킹해 로컬 다국어 임베딩(bge-m3)으로 FAISS 벡터 인덱싱
+- 한국어 질문으로 영어 원문을 검색하고, 유사도·원문 미리보기를 포함한 출처 표시
+- LLM과 임베딩을 모두 로컬 Ollama로 실행하는 LLM 추상화 (설치된 모델을 UI에서 선택)
 - Domain·Application·Infrastructure 계층으로 문서 처리와 검색 책임 분리
 - Streamlit 기반 대화형 검색 UI와 단위·통합·E2E 테스트 구성
 
