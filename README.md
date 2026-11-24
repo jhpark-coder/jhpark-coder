@@ -1,51 +1,75 @@
-# 박준호 | Industrial Automation & AI Full-Stack Developer
+# 박준호 | 제조 자동화 소프트웨어 풀스택 개발자
 
-> 제조 자동화 도메인에서 C# 데스크톱 클라이언트부터 React·FastAPI 기반 AI/PLC 파이프라인까지 개발합니다.
+> 전기 설계 엑셀 자료를 도면으로 바꾸는 Windows 데스크톱 앱을 설계부터 설치본 배포까지 혼자 만들고 있습니다.
 
-안녕하세요. 전자회로도(ECAD), PLC, 제조설비 데이터를 다루는 개발자 박준호입니다.
-기존 산업용 클라이언트를 현대화하고, 현장 데이터를 AI가 처리할 수 있는 구조로 연결하는 일에 관심이 있습니다.
+제조설비의 전기 설계(ECAD)와 PLC 데이터를 다루는 풀스택 개발자입니다.
+설계자가 엑셀과 CAD를 오가며 손으로 하던 작업을 규칙으로 옮기고, 그 결과를 실제 도면과 대조해 검증하는 일을 합니다.
 
-- 현재: **주식회사 제이엘티 기업부설연구소 팩토리AI팀 연구원**
-- 역할: **풀스택 개발자**
-- 주요 분야: **ECAD · PLC · 제조설비 데이터**
-- 근무 지역: **인천 송도**
+- 현재: **주식회사 제이엘티 기업부설연구소 팩토리AI팀 연구원** (2025.11 ~ 현재)
+- 주요 분야: **전기 설계 자동화(ECAD) · PLC 구성 · 데스크톱 앱**
+- 주로 쓰는 기술: **React · TypeScript · Electron · Python FastAPI · C#/.NET · SQLite**
 - Contact: **pjh133765@gmail.com**
 
 ## Career
 
-### 주식회사 제이엘티
+### 주식회사 제이엘티 · 기업부설연구소 팩토리AI팀
 
-`2025.11 ~ 현재` · 기업부설연구소 팩토리AI팀 · 연구원/팀원
+`2025.11 ~ 현재` · 연구원 · 풀스택 개발
 
-레이저 비전(LVS), 폐배터리 리사이클링(BR), PLC, ECAD 등 제조설비 관련 소프트웨어를 개발하는 기업입니다.
+레이저 비전(LVS), 폐배터리 리사이클링(BR), PLC, ECAD 등 제조설비 소프트웨어를 개발하는 기업입니다.
 
-- 직무: 클라이언트(프론트엔드) 개발, AI 풀스택 개발
-- 기업 정보: 매출 94억 원 · 직원 81명
+#### 전기 설계 자동화 데스크톱 앱 (사내 ECAD)
 
-#### C#/.NET ECAD 클라이언트 개발
+`Electron` `React 19` `TypeScript` `JointJS` `Python FastAPI` `SQLAlchemy` `SQLite` `C#/.NET` `SOLIDWORKS Electrical API`
 
-`2025.11 ~ 현재`
+제어반 설계자는 부품 목록(BOM)과 부하 계산표(LoadList)를 엑셀로 받아 단선도를 손으로 그리고, SOLIDWORKS Electrical에서 같은 도면을 다시 그립니다.
+이 흐름을 **BOM 반입 → 부하 전기 계산 → 단선도 자동 구성 → SOLIDWORKS Electrical 도면·PDF 자동 생성**으로 잇는 Windows 데스크톱 앱입니다.
 
-**React · TypeScript · Python · SQLite · Git Flow**
+- 설계·구현·테스트·설치본 배포를 혼자 맡아 커밋 1,150건 이상, Windows 설치본 5차례 배포(v0.2.2 ~ v0.2.6)
+- Git Flow(`develop` 통합 검증 · `release/` 배포 · `hotfix/` 긴급 수정) 기반 브랜치·배포 절차 도입
 
-- React/TypeScript 기반 FrontEnd, Python FastAPI 기반 BackEnd FullStack 개발
-- Git Flow 기반 협업·배포 흐름 도입
-- SQLite을 활용한 심볼·매크로·설정 데이터 관리
-- 전자회로도 편집기, 심볼/매크로, 와이어 라우팅, 프로젝트 저장·복구 기능 개발
-- Excel LoadList 변환과 SWE 프로젝트 데이터 가져오기·검증 기능 개발
-- 대규모 도면 렌더링 및 편집 반응성 개선, 회귀 테스트와 설치본 검증 자동화
+**구조**
 
-> 회사 프로젝트의 소스 코드는 비공개이며, 위 내용은 담당 업무와 사용 기술을 중심으로 정리했습니다.
+- Electron 셸이 로컬 FastAPI 백엔드를 띄우고, React 편집기와 SQLite 저장소를 연결하는 구조 설계
+- C# 생성기가 SOLIDWORKS Electrical COM API로 심볼·매크로·와이어를 배치하고 PDF·프로젝트 아카이브 출력
+- PyInstaller·NSIS로 패키징해 사용자 PC에 Python·Node·Docker 없이 설치·실행
+- 편집 중 문서는 IndexedDB에 자동 백업하고, 저장·반입·생성 요청은 프로젝트별 쓰기 큐로 순서 보장
+
+**단선도 편집기**
+
+- JointJS 기반 심볼 배치, 직교 와이어 경로와 이동 중 경로 미리보기, 구조상자, Undo/Redo
+- 와이어 자동 우회 경로와 심볼 배치 탐색 범위를 줄여 대형 도면의 편집 반응성 개선
+
+**엑셀 데이터 처리와 전기 계산**
+
+- 부품 DB·BOM·부하 계산 등 6개 화면이 함께 쓰는 엑셀식 공통 표: 범위 선택, Excel과 복사·붙여넣기, 채우기, 정렬·필터, 실행 취소
+- 시트·열·단위를 지정하는 LoadList 반입, 정격 전류·부하율·동시율 계산, 상분배, 차단기 용량 후보 선정과 근거 보존
+- 제조사별 모델명 해석 규칙(LS·OMRON·미쓰비시)으로 정격 사양을 추출하고 BOM 행을 부품 DB에 자동 매칭
+- 판넬별 부하 역할과 보호 협조 규칙으로 단선도 회로 계층을 자동 구성
+- 미쓰비시 PLC 베이스·슬롯 구성과 점별 IO를 단선도 장치와 연결
+
+**검증**
+
+- 자동 테스트 약 3,000건(백엔드 pytest 1,700여 건, 프런트 1,200여 건), 백엔드 병렬 실행으로 11분 → 약 3분
+- 실제 설계 도면을 정답지로 삼아 자동 생성한 단선도를 계통 단위로 대조하는 회귀 테스트
+- 생성 도면 검사 스크립트: 대각선 와이어, 접속점에 닿지 않는 끝, 의도하지 않은 T자 분기, 없는 심볼을 가리키는 와이어를 각각 0건으로 확인
+- 배포마다 설치본을 격리 프로필로 실행해 저장·재열기·생성 흐름 확인
+
+> 회사 프로젝트의 소스 코드와 화면은 비공개라 링크를 넣지 않았습니다. 담당 업무와 기술 위주로 정리했습니다.
 
 ## Tech Stack
 
 ### Current
 
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black)
+![Electron](https://img.shields.io/badge/Electron-47848F?style=flat-square&logo=electron&logoColor=white)
+![Vite](https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
-![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![C#](https://img.shields.io/badge/C%23-512BD4?style=flat-square&logo=dotnet&logoColor=white)
 ![SQLite](https://img.shields.io/badge/SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white)
+![pytest](https://img.shields.io/badge/pytest-0A9EDC?style=flat-square&logo=pytest&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
 
 ### Previously Used
@@ -67,7 +91,7 @@
 
 - 컨베이어, 실린더, 그리퍼, 센서, 산업용 로봇 등 장비 24종 수록
 - 회전·확대 가능한 WebGL 3D 형상과 가동부 동작 시연
-- 동작 순서에 따라 변경되는 `LIVE STATE` 및 PLC 명령 표시
+- 동작 순서에 따라 바뀌는 `LIVE STATE`와 PLC 명령 표시
 - 동작 버튼 64개의 타이밍·상태·복귀 자세를 자동 검증하는 스크립트 구축
 - Next.js 빌드와 Cloudflare 배포 패키징 지원
 
@@ -75,7 +99,7 @@
 
 [Repository](https://github.com/jhpark-coder/Interior-Simulator) · React 19 · TypeScript · Konva · React Three Fiber
 
-방 구조와 가구를 2D에서 편집하고 동일한 데이터를 3D 공간에서 확인할 수 있는 인테리어 배치 시뮬레이터입니다.
+방 구조와 가구를 2D에서 편집하고 같은 데이터를 3D 공간에서 확인하는 인테리어 배치 시뮬레이터입니다.
 
 - React Konva 기반 2D 편집기와 React Three Fiber 기반 3D 장면 구현
 - 가구·문·창문 배치, 그리드 스냅, 경계 및 가구 충돌 검사
@@ -88,7 +112,7 @@
 
 [Repository](https://github.com/jhpark-coder/devmate) · Python · Streamlit · LangChain · FAISS
 
-개발자가 방대한 기술 문서를 한국어 질의응답으로 탐색할 수 있도록 만든 RAG 기반 공식 문서 도우미입니다.
+방대한 기술 문서를 한국어 질의응답으로 탐색하는 RAG 기반 공식 문서 도우미입니다.
 
 - 기술 문서 청킹, OpenAI Embedding 생성 및 FAISS 벡터 인덱싱
 - 검색 문맥에 기반한 답변과 유사도·원문 미리보기를 포함한 출처 표시
