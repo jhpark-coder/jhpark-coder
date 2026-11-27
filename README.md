@@ -109,25 +109,25 @@ React·TypeScript 화면과 Python FastAPI 서버로 사내에서 실제로 쓰�
 
 `Next.js 16` `React 19` `Three.js` `Cloudflare`
 
-산업 장비 24종의 생김새와 동작을 3D로 돌려 보며 배우는 한국어 인터랙티브 학습 사이트입니다.
+산업 장비 41종의 생김새와 동작을 3D로 돌려 보며 배우는 한국어 인터랙티브 학습 사이트입니다.
 
 - 회전·확대할 수 있는 WebGL 3D 모델과 가동부 애니메이션
 - 동작 순서에 따라 바뀌는 상태 패널과 제어 명령 표시
-- 동작 버튼 64개의 타이밍·상태·복귀 자세를 자동으로 검증하는 스크립트
-- Next.js로 빌드해 Cloudflare에 배포
+- 동작 버튼 98개의 타이밍·상태·복귀 자세를 Playwright로 자동 검증하는 스크립트
+- Next.js로 빌드해 OpenNext로 Cloudflare Workers에 배포
 
 ## Previous Projects
 
 <details>
-<summary><strong>Nexus | 온라인 포트폴리오 판매 플랫폼</strong> · 2025.06 ~ 2025.07 · 3인 팀 (팀장)</summary>
+<summary><strong>Nexus | 온라인 포트폴리오 판매 플랫폼</strong> · 2025.06 ~ 2025.07 · 3인 팀 (팀장 · 백엔드)</summary>
 
 [Repository](https://github.com/jhpark-coder/SpringBootProject_Group4)
 
-- Spring Boot, React, NestJS, MySQL, Redis, Docker
-- 백엔드 API와 데이터베이스 설계
-- Tiptap 에디터 기반 판매글 작성, 결제한 사용자만 보는 유료 콘텐츠 영역
-- Socket.IO 기반 실시간 채팅·알림
-- 팀에 Git Flow와 PR 리뷰 규칙 도입, AWS EC2 배포
+- Spring Boot, Spring Security, React, NestJS, MySQL(MariaDB), Redis, Docker, AWS EC2·RDS
+- 백엔드 API와 데이터베이스 설계, 시스템 아키텍처
+- NestJS·Socket.IO 기반 실시간 채팅·알림 서버
+- Tiptap 에디터 연동, 결제한 사용자만 보는 유료 콘텐츠 영역
+- Docker·Git 환경 구축, AWS EC2 배포
 
 </details>
 
@@ -136,9 +136,10 @@ React·TypeScript 화면과 Python FastAPI 서버로 사내에서 실제로 쓰�
 
 [Repository](https://github.com/jhpark-coder/personalproject)
 
-- Spring Boot, React, NestJS, MySQL, Redis, Docker
-- MediaPipe 모션 인식과 Google Cloud TTS 기반 운동 지원
-- 사용자 상태를 반영한 운동 추천과 데이터 시각화
+- Spring Boot, React, NestJS, MySQL, MongoDB, Redis, Docker
+- MediaPipe 포즈 인식으로 운동 자세를 분석하고, 브라우저 음성 합성(Web Speech API)으로 실시간 코칭
+- OAuth 2.0 소셜 로그인, NestJS 통신 서버로 실시간 알림과 Twilio SMS 발송
+- 사용자 상태를 반영한 운동 추천과 Recharts 데이터 시각화
 
 </details>
 
